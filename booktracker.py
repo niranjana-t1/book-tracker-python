@@ -1,30 +1,3 @@
-# Book=[]
-# print("Book Tracker")
-# print("1. Add Book")
-# print("2. Show Books")
-# print("3. Delete books")
-# print("4. Exit")
-# while True:
-#     choice = input("Enter your choice: ")
-#     if choice == "1":
-#         new=input("Name of the book: ")
-#         Book.append(new)
-#         print("Book Added!")
-#     elif choice == "2":
-#         for book in Book:
-#             print(book)
-#     elif choice == "3":
-#         delete=input("Which book do you want to delete?: ")
-#         if delete in Book:
-#             Book.remove(delete)
-#             print("Book Deleted!")
-#         else:
-#             print("Book not Found.")
-#     elif choice == "4":
-#         break
-#     else:
-#         print("Invalid Choice.")
-
 books=[]
 def add():
     new=input("Name of the Book: ")
